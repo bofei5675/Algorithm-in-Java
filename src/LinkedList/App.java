@@ -9,6 +9,9 @@ public class App {
         list.insert(5);
         list.insert(4);
         list.insert(2);
+        System.out.println(list.size());
+        list.remove(7);
+        System.out.println(list.size());
         list.transverse();
     }
 }
