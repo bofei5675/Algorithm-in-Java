@@ -4,6 +4,11 @@ public class Stack<T> {
     private T[] stack;
     private int numOfItems;
 
+    /*
+     * push and pop takes linear running time instead of constant memory
+     * friendly but takes longer time no need for pointer each time to call
+     * resize, it has to reconstruct array.
+     */
     public Stack() {
         this.stack = (T[]) new Object[1];
     }
