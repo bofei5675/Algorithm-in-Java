@@ -5,4 +5,5 @@ public interface Tree<T> {
 
     public void traverse();
 
+    public void delete(T data);
 }
