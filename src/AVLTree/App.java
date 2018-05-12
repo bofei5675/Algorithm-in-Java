@@ -10,5 +10,12 @@ public class App {
 
         tree.delete(15);
         tree.traverse();
+        Tree tree2 = new AVLTree<String>();
+
+        tree2.insert("a");
+        tree2.insert("b");
+        tree2.insert("c");
+        tree2.traverse();
+        tree2.delete("a");
     }
 }
