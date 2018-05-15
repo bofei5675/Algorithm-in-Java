@@ -35,10 +35,11 @@ public class SplayTree<T extends Comparable<T>> implements Tree<T> {
 
     private void splay(Node<T> node) {
         // TODO Auto-generated method stub
-        while (node != null) {
+        while (node.getParent() != null) {
             /*
              * Zig situation given nodes is left child or right child of root
              */
+            // System.out.println(node);
             if (node.getParent().getParent() == null) {
                 // if it is left child or right child?
                 if (node == node.getParent().getLeftChild()) {
@@ -53,8 +54,7 @@ public class SplayTree<T extends Comparable<T>> implements Tree<T> {
              * parent or right child of right child or grandparent.
              */
             else if (node.getParent().getParent().getLeftChild() == node
-                    .getParent().getParent()
-                    && node.getParent().getLeftChild() == node) {
+                    .getParent() && node.getParent().getLeftChild() == node) {
                 this.rightRotation(node.getParent().getParent());
                 this.rightRotation(node.getParent());
                 // then node is root now
@@ -209,5 +209,10 @@ public class SplayTree<T extends Comparable<T>> implements Tree<T> {
         }
         node.setParent(tempNode);
 
+    }
+
+    @Override
+    public void printRoot() {
+        System.out.println("The root is " + this.root);
     }
 }

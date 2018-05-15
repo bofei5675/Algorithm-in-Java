@@ -11,4 +11,6 @@ public interface Tree<T extends Comparable<T>> {
 
     public void inOrderTranverse();
 
+    public void printRoot();
+
 }
