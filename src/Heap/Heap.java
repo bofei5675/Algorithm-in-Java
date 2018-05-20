@@ -40,6 +40,20 @@ public class Heap {
         return result;
     }
 
+    public void heapsort() {
+        for (int i = 0; i < this.currentPosition; i++) {
+            // find the max item
+            int temp = this.heap[0];
+            // print the max
+            System.out.println(temp + " ");
+            this.heap[0] = this.heap[this.currentPosition - i];
+            this.heap[this.currentPosition - i] = temp;
+            // consider the last item is sorted
+            this.fixDown(0, this.currentPosition - i - 1);
+
+        }
+    }
+
     private void fixDown(int index, int upto) {
         // TODO Auto-generated method stub
         if (upto < 0) {
@@ -63,6 +77,8 @@ public class Heap {
                     this.heap[childToSwap] = this.heap[index];
                     this.heap[index] = temp;
                     index = childToSwap;
+                } else {
+                    break;
                 }
             } else {
                 break;
