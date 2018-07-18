@@ -63,6 +63,11 @@ public class App {
         n[j] = temp;
     }
 
+    public static void foo(int[] nums) {
+        //nums = new int[] { 1, 2 };
+        nums[0] = nums[1];
+    }
+
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3 };
         ArrayList<Integer> arr2 = new ArrayList<Integer>();
@@ -79,6 +84,14 @@ public class App {
                 System.out.print(temp[j]);
             }
             System.out.println("");
+        }
+        int[] nums = new int[3];
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = i;
+        }
+        foo(nums);
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
         }
     }
 }
