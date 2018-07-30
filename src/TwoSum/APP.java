@@ -6,13 +6,15 @@ public class APP {
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
-        int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
-        int target = 7;
-        int[] result = s.twoSum(arr, target);
-        for (int each : result) {
-            System.out.println(each);
-        }
+        /*
+         * Solution s = new Solution(); int[] arr = { 1, 2, 3, 4, 5, 6, 7 }; int
+         * target = 7; int[] result = s.twoSum(arr, target); for (int each :
+         * result) { System.out.println(each); }
+         */
+
+        int i = 2;
+
+        System.out.println(i & (-i));
 
     }
 }
