@@ -12,3 +12,9 @@ Notes:
 Implement BinaryIndexedTree. 
 * [Tutorial link](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
 * [Pracetice Question Leetcode 307](https://leetcode.com/problems/range-sum-query-mutable/discuss/75766/Java-Binary-Indexed-Tree)
+
+7/31/18
+Bit manipulation.
+* Need more understanding
+* Question [LC397] (https://leetcode.com/problems/integer-replacement/discuss/87920/A-couple-of-Java-solutions-with-explanations)
+* **Do some more reading**
