@@ -1,7 +1,7 @@
 # Algorithm-in-Java
 
 Progress:
-* 5/1 LinkedList **13/133**
+* 5/1 Go over basic data structure in Java
 * 7/18 LC 60
 * 7/30 LC 100
 
