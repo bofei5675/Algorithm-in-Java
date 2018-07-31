@@ -17,4 +17,4 @@ Implement BinaryIndexedTree.
 Bit manipulation.
 * Need more understanding
 * Question [LC397] (https://leetcode.com/problems/integer-replacement/discuss/87920/A-couple-of-Java-solutions-with-explanations)
-* **Do some more reading**
+* **Do some more reading (TO DO)**
