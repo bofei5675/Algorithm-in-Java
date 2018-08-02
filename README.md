@@ -18,6 +18,7 @@ Bit manipulation.
 * Need more understanding
 * Question [LC397] (https://leetcode.com/problems/integer-replacement/discuss/87920/A-couple-of-Java-solutions-with-explanations)
 * **Do some more reading (TO DO)**
+  * [detail explaination of bit manupulation](https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
 
 Priority Queue (Heap)
 * Data Structure, [Implementation](https://www.geeksforgeeks.org/priority-queue-set-1-introduction
