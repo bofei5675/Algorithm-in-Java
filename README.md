@@ -20,6 +20,7 @@ Bit manipulation.
 * **Do some more reading (TO DO)**
   * [detail explaination of bit manupulation 8/2](https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
   * [Java Bit Operator 8/2](https://www.vojtechruzicka.com/bit-manipulation-java-bitwise-bit-shift-operations/)
+  * [Binary Arithmetic](https://ryanstutorials.net/binary-tutorial/binary-arithmetic.php)
 
 Priority Queue (Heap)
 * Data Structure, [Implementation](https://www.geeksforgeeks.org/priority-queue-set-1-introduction
