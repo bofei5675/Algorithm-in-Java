@@ -4,7 +4,7 @@ Progress:
 * 5/1 Go over basic data structure in Java
 * 7/18 LC 60
 * 7/30 LC 100
-
+* 8/5 LC 117
 
 Notes:
 7/30/18
@@ -26,3 +26,7 @@ Priority Queue (Heap)
 * Data Structure, [Implementation](https://www.geeksforgeeks.org/priority-queue-set-1-introduction
 * Understand [Java Comparator](https://www.geeksforgeeks.org/implement-priorityqueue-comparator-java/)
 * Question [LC 451](https://leetcode.com/problems/sort-characters-by-frequency/discuss/93420/Java-O(n)-Bucket-Sort-Solution-O(nlogn)-PriorityQueue-Solution-easy-to-understand) and LC 347
+
+8/18
+fibonacci problem **Need better understanding**
+* [LC 70](https://leetcode.com/problems/climbing-stairs/discuss/)
