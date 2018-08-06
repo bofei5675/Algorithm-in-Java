@@ -30,3 +30,7 @@ Priority Queue (Heap)
 8/18
 fibonacci problem **Need better understanding**
 * [LC 70](https://leetcode.com/problems/climbing-stairs/discuss/)
+
+Dynamic programming
+* [LC 64](https://leetcode.com/problems/minimum-path-sum/description/)
+* **Reading tutorial** [This Link](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/)
