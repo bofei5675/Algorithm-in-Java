@@ -5,7 +5,7 @@ Progress:
 * 7/18 LC 60
 * 7/30 LC 100
 * 8/5 LC 117
-* 8/9 LC 125
+* 8/9 LC 130
 
 Notes:
 7/30/18
@@ -36,3 +36,19 @@ Dynamic programming
 * [LC 64](https://leetcode.com/problems/minimum-path-sum/description/)
 * [LC 95/96](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) **Not sure about the answer**
 * **Reading tutorial** [This Link](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/)
+
+
+Sort 
+* LC 179
+* Learn to use Java Comparator Class
+```java
+Comparator<String> comp = new Comparator<String>(){
+  @Override
+  public int compare(String s1,String s2){
+    return (s2 + s1).compare(s1 + s2);
+  }
+};
+
+Arrays.sort(arr,comp);
+```
+* String builder is faster and robust
