@@ -5,6 +5,7 @@ Progress:
 * 7/18 LC 60
 * 7/30 LC 100
 * 8/5 LC 117
+* 8/9 LC 125
 
 Notes:
 7/30/18
@@ -33,4 +34,5 @@ fibonacci problem **Need better understanding**
 
 Dynamic programming
 * [LC 64](https://leetcode.com/problems/minimum-path-sum/description/)
+* [LC 95/96](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) **Not sure about the answer**
 * **Reading tutorial** [This Link](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/)
