@@ -87,3 +87,8 @@ function visit(node n)
     mark n permanently
     add n to head of L
 ```
+
+### Trie (Prefix Tree)
+* [Tutorial](https://leetcode.com/articles/implement-trie-prefix-tree/)
+* Implement Trie Tree in this Repo
+* Various applications
