@@ -6,6 +6,8 @@ Progress:
 * 7/30 LC 100
 * 8/5 LC 117
 * 8/9 LC 130
+* 8/14 LC 147
+
 
 Notes:
 7/30/18
@@ -92,3 +94,8 @@ function visit(node n)
 * [Tutorial](https://leetcode.com/articles/implement-trie-prefix-tree/)
 * Implement Trie Tree in this Repo
 * Various applications
+
+
+### Lexicographical Order
+* LC 386
+* [Definition](http://mathworld.wolfram.com/LexicographicOrder.html)
