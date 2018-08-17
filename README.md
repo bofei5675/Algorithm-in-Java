@@ -24,7 +24,10 @@ Notes:
   * [detail explaination of bit manupulation 8/2](https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
   * [Java Bit Operator 8/2](https://www.vojtechruzicka.com/bit-manipulation-java-bitwise-bit-shift-operations/)
   * [Binary Arithmetic](https://ryanstutorials.net/binary-tutorial/binary-arithmetic.php)
-
+* LC 389 and LC 138 Find single number
+  * if one element only shown at once but others show twice
+  * we should use **XOR** to deal with this problem
+  
 ### Priority Queue (Heap)
 * Data Structure, [Implementation](https://www.geeksforgeeks.org/priority-queue-set-1-introduction)
 * Understand [Java Comparator](https://www.geeksforgeeks.org/implement-priorityqueue-comparator-java/)
