@@ -102,3 +102,10 @@ function visit(node n)
 ### Lexicographical Order
 * LC 386
 * [Definition](http://mathworld.wolfram.com/LexicographicOrder.html)
+
+### Math Problem
+* LC 415 Add String
+* Compute number from String
+```Java
+int x = num1.charAt(i) - '0';
+```
