@@ -106,6 +106,7 @@ function visit(node n)
 ### Math Problem
 * LC 415 Add String
 * Compute number from String
+* StringBuilder.reverse()
 ```Java
 int x = num1.charAt(i) - '0';
 ```
