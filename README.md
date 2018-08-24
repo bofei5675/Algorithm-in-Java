@@ -110,3 +110,7 @@ function visit(node n)
 ```Java
 int x = num1.charAt(i) - '0';
 ```
+
+### Reservoir Sampling
+* LC 382
+* [Blog Reading](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)
