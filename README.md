@@ -114,6 +114,13 @@ int x = num1.charAt(i) - '0';
 ### Reservoir Sampling
 * LC 382 Count sample size within constructor is much faster than reservoir sampling. But reservoir sampling does not require the size of the sample
 * [Blog Reading](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)
+* LC 398 Pick up an index.
+```java
+// how the possibility works
+Random rand = new Random();
+if( rand.nextInt(countOfItem) == 0 ) // pick this one;
+```
+
 
 ### Iterator Design
 * LC 284
