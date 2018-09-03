@@ -20,6 +20,11 @@ Notes:
 ### Bit manipulation.
 * Need more understanding
 * Question [LC397](https://leetcode.com/problems/integer-replacement/discuss/87920/A-couple-of-Java-solutions-with-explanations)
+* LC 401
+```java
+Integer.countBits(h * 64 + m) == num // count 1 bits in the integer
+```
+
 * **Do some more reading (TO DO)**
   * [detail explaination of bit manupulation 8/2](https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
   * [Java Bit Operator 8/2](https://www.vojtechruzicka.com/bit-manipulation-java-bitwise-bit-shift-operations/)
