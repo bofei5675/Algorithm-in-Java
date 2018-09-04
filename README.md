@@ -130,3 +130,21 @@ if( rand.nextInt(countOfItem) == 0 ) // pick this one;
 ### Iterator Design
 * LC 284
 * Make use of Java iterator
+
+### Window Sliding
+* [LC 567](https://leetcode.com/problems/permutation-in-string/discuss/102588/Java-Solution-Sliding-Window)
+* Create sliding window substring to identify permutation
+```java
+int[] map = new int[26];
+        
+for(int i = 0 ; i < s1.length(); i ++){
+    map[s1.charAt(i) - 'a'] ++;    
+    map[s2.charAt(i) - 'a'] --;
+}
+if(allZeroes(map)) return true;
+for(int i = 0; i < s2.length() - windowSize; i ++){
+    map[s2.charAt(i + windowSize) - 'a'] --;
+    map[s2.charAt(i) - 'a'] ++;
+    if(allZeroes(map)) return true;
+}
+```
