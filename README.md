@@ -7,7 +7,7 @@ Progress:
 * 8/5 LC 117
 * 8/9 LC 130
 * 8/14 LC 147
-
+* 9/9 LC 176
 
 Notes:
 7/30/18
@@ -148,3 +148,10 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
     if(allZeroes(map)) return true;
 }
 ```
+
+### Greedy Algorithm
+* [LC 452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/discuss/93703/Share-my-explained-Greedy-solution-as-the-highest-voted-java-solution-right-now-is-not-ideal)
+
+### Sort
+* Insertion sort O(n) -> O(n^2)
+* Selection sort O(n^2)
