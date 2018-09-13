@@ -7,7 +7,7 @@ public class APP {
 	public static void main(String[] args) {
 		Random rand = new Random();
 		
-		final int SIZE = 10;
+		final int SIZE = 20;
 		
 		int[] A =new int[SIZE];
 		
@@ -16,7 +16,7 @@ public class APP {
 		}
 		
 		InsertionSort.display(A);
-		InsertionSort.sort(A);
+		MergeSort.mergeSort(A);
 		InsertionSort.display(A);
 	}
 }
