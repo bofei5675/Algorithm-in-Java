@@ -155,3 +155,7 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 ### Sort
 * Insertion sort O(n) -> O(n^2)
 * Selection sort O(n^2)
+* Merge sort ***divide and conqueor***
+
+### Hash Table
+* LC 560 Store the cumulative sum and number of appearance 
