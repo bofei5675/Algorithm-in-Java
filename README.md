@@ -61,6 +61,10 @@ Comparator<String> comp = new Comparator<String>(){
 
 Arrays.sort(arr,comp);
 ```
+* In the version of java 8 and after, we have a better way for the pointer. From LC 658 Binary Tree Search
+```java
+ Collections.sort(arr, (a,b) -> a == b ? a - b : Math.abs(a-x) - Math.abs(b-x));
+```
 * String builder is faster and robust
 
 ### Topological Sort BFS/DFS
