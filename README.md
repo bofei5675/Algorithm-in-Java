@@ -162,6 +162,8 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 * Merge sort ***divide and conqueor*** Implemented
 * Heap sort Implemented 
 * Stability of a sorting algorithm read this [post](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
-
+* Linear time sort O(n)
+ * Counting sort - required previous knowledge the range of array
+ * Bucket sort - Review for the random variable. Assume the uniform distribution. Proof by **Linearity of Expectation**
 ### Hash Table
 * LC 560 Store the cumulative sum and number of appearance 
