@@ -159,7 +159,9 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 ### Sort
 * Insertion sort O(n) -> O(n^2)
 * Selection sort O(n^2)
-* Merge sort ***divide and conqueor***
+* Merge sort ***divide and conqueor*** Implemented
+* Heap sort Implemented 
+* Stability of a sorting algorithm read this [post](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
 
 ### Hash Table
 * LC 560 Store the cumulative sum and number of appearance 
