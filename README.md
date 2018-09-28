@@ -42,11 +42,11 @@ Integer.countBits(h * 64 + m) == num // count 1 bits in the integer
 ### fibonacci problem **Need better understanding**
 * [LC 70](https://leetcode.com/problems/climbing-stairs/discuss/)
 
-Dynamic programming
+### Dynamic programming
 * [LC 64](https://leetcode.com/problems/minimum-path-sum/description/)
 * [LC 95/96](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) **Not sure about the answer**
 * **Reading tutorial** [This Link](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/)
-
+* Coin change problem Coin Change I and II.
 
 ### Sort 
 * LC 179
