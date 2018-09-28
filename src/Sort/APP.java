@@ -16,7 +16,7 @@ public class APP {
 		}
 		
 		InsertionSort.display(A);
-		MergeSort.mergeSort(A);
+		QuickSort.sort(A, 0,A.length - 1);
 		InsertionSort.display(A);
 	}
 }
