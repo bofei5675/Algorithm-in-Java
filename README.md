@@ -160,6 +160,7 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 * Insertion sort O(n) -> O(n^2)
 * Selection sort O(n^2)
 * Merge sort ***divide and conqueor*** Implemented
+* Quick sort, **randomized algorithm**, applied expectation and random variable to solve the running time.
 * Heap sort Implemented 
 * Stability of a sorting algorithm read this [post](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
 * Linear time sort O(n)
