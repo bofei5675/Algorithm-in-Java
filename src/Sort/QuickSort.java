@@ -6,10 +6,19 @@ package Sort;
 public class QuickSort {
 	public static void sort(int[] A,int start, int end ) {
 		if(start < end) {
+			System.out.println(A[end]);
 			int mid = partition(A,start,end);
+			
+			display(A);
 			sort(A,start ,mid - 1);
 			sort(A, mid + 1, end);
 		}
+	}
+	private static void display(int [] A) {
+		for(int i = 0; i < A.length ; i ++) {
+			System.out.print(A[i] + " ");
+		}
+		System.out.println("");
 	}
 	/**
 	 * Partition the array into two parts where the smaller element is on
@@ -34,6 +43,7 @@ public class QuickSort {
 		// all elements on the left would be smaller
 		// all elements on the right would be larger.
 		swap(A,loc + 1,end);
+		
 		return loc + 1;
 	}
 	/**

@@ -7,7 +7,7 @@ public class APP {
 	public static void main(String[] args) {
 		Random rand = new Random();
 		
-		final int SIZE = 20;
+		final int SIZE = 8;
 		
 		int[] A =new int[SIZE];
 		

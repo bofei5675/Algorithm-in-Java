@@ -36,6 +36,8 @@ public class MergeSort {
 				i ++;
 			} else if(j <= end ) {
 				temp[k] = A[j];
+				// count inversion by the rest of length of array
+				// will keep O(nlogn) running time.
 				j++;
 			}
 		}
