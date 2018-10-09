@@ -166,5 +166,6 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 * Linear time sort O(n)
  * Counting sort - required previous knowledge the range of array
  * Bucket sort - Review for the random variable. Assume the uniform distribution. Proof by **Linearity of Expectation**
+* Patience sort - find minimum number of ascending subsequence from an array. Implement by the priority queue.  
 ### Hash Table
 * LC 560 Store the cumulative sum and number of appearance 
