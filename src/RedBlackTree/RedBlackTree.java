@@ -31,13 +31,13 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
         Node node = new Node<T>(data);
         this.root = this.insert(this.root, node);
         // this.root.setColor(NodeColor.RED);
+        // change color if RBT properties are violated.
         this.fixViolation(node);
     }
 
     private Node<T> insert(Node<T> root, Node<T> node) {
         // TODO Auto-generated method stub
         if (root == null) {
-
             return node;
         }
 
@@ -51,7 +51,10 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
         }
         return root;
     }
-
+    
+    public void showRootColor() {
+    	System.out.println(this.root.getColor());
+    }
     private void fixViolation(Node<T> node) {
         // TODO Auto-generated method stub
         Node<T> parentNode = null;
@@ -118,7 +121,7 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
                 }
 
             }
-            if (this.root.getColor() == NodeColor.BLACK) {
+            if (this.root.getColor() == NodeColor.RED) {
                 this.root.setColor(NodeColor.BLACK);
             }
         }
