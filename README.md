@@ -1,6 +1,7 @@
 # Algorithm-in-Java
 
 Progress:
+**2018**
 * 5/1 Go over basic data structure in Java
 * 7/18 LC 60
 * 7/30 LC 100
@@ -8,9 +9,8 @@ Progress:
 * 8/9 LC 130
 * 8/14 LC 147
 * 9/9 LC 176
-
-Notes:
-7/30/18
+**2019**
+* 5/29 LC 209
 
 ### Implement BinaryIndexedTree. 
 * [Tutorial link](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
@@ -169,3 +169,6 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 * Patience sort - find minimum number of ascending subsequence from an array. Implement by the priority queue.  
 ### Hash Table
 * LC 560 Store the cumulative sum and number of appearance 
+
+### Divide and Conquer
+* 241. Different Ways to Add Parentheses. Find all combination of computation from a given string.
