@@ -171,4 +171,4 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 * LC 560 Store the cumulative sum and number of appearance 
 
 ### Divide and Conquer
-* 241. Different Ways to Add Parentheses. Find all combination of computation from a given string.
+* LC 241 Different Ways to Add Parentheses. Find all combination of computation from a given string.
