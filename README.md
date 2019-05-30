@@ -9,6 +9,7 @@ Progress:
 * 8/9 LC 130
 * 8/14 LC 147
 * 9/9 LC 176
+
 **2019**
 * 5/29 LC 209
 
@@ -172,3 +173,8 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 
 ### Divide and Conquer
 * LC 241 Different Ways to Add Parentheses. Find all combination of computation from a given string.
+
+
+### Union find
+* LC 721 merge acount
+ * For union find, the key idea is find a representative for each element. Then, group all items into a set with same representive/parent.
