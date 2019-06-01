@@ -37,7 +37,7 @@ Integer.countBits(h * 64 + m) == num // count 1 bits in the integer
 ### Priority Queue (Heap)
 * Data Structure, [Implementation](https://www.geeksforgeeks.org/priority-queue-set-1-introduction)
 * Understand [Java Comparator](https://www.geeksforgeeks.org/implement-priorityqueue-comparator-java/)
-* Question [LC 451](https://leetcode.com/problems/sort-characters-by-frequency/discuss/93420/Java-O(n)-Bucket-Sort-Solution-O(nlogn)-PriorityQueue-Solution-easy-to-understand) and LC 347
+* Question [LC 451](https://leetcode.com/problems/-characters-by-frequency/discuss/93420/Java-O(n)-Bucket-Sort-Solution-O(nlogn)-PriorityQueue-Solution-easy-to-understand) and LC 347
 
 8/18
 ### fibonacci problem **Need better understanding**
@@ -170,9 +170,10 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 * Heap sort Implemented 
 * Stability of a sorting algorithm read this [post](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
 * Linear time sort O(n)
- * Counting sort - required previous knowledge the range of array
- * Bucket sort - Review for the random variable. Assume the uniform distribution. Proof by **Linearity of Expectation**
+  * Counting sort - required previous knowledge the range of array
+  * Bucket sort - Review for the random variable. Assume the uniform distribution. Proof by **Linearity of Expectation**
 * Patience sort - find minimum number of ascending subsequence from an array. Implement by the priority queue.  
+* LC 791; Bucket sort for string - 1) create a bucket with 26 characters counts; 2) add char that are in bucket and original string, and clear that slot to 0; 3) Add characters in original string but not in sorted pattern into string; 4) Return the string.
 ### Hash Table
 * LC 560 Store the cumulative sum and number of appearance 
 
