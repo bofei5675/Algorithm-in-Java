@@ -49,7 +49,11 @@ Integer.countBits(h * 64 + m) == num // count 1 bits in the integer
 * **Reading tutorial** [This Link](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/)
 * Coin change problem Coin Change I and II.
 * [LC 1029](https://leetcode.com/problems/two-city-scheduling/discuss/278731/Java-DP-Easy-to-Understand). Assign people to different cities (A and B). `dp[i][j]` is the minimum cost after you assigning `i + j` people. The index can be treated `i` person to A, `j` persons to B. You can either assign people to A or B, then the dynamic programming equation is:`dp[i][j] = Math.min(costs[i + j -1][0] + dp[i-1][j],costs[i + j - 1][1] + dp[i][j-1])`. It means "the cost of sending this person to city A/B + best in last step".
-
+* [LC 1027](https://leetcode.com/problems/longest-arithmetic-sequence/); Arithemic sequence. 
+```java
+dp[diff][index] // diff: difference bewtween two number i and j. index: the index of number j
+Map<Integer,Integer> m = dp.computeIfAbsent(computation, func()); // a userful map method in java.
+```
 ### Sort 
 * LC 179
 * Learn to use Java Comparator Class
