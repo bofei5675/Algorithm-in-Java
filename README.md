@@ -120,10 +120,26 @@ function visit(node n)
 
 ### Math Problem
 * LC 415 Add String
-* Compute number from String
-* StringBuilder.reverse()
+  * Compute number from String
+  * StringBuilder.reverse()
 ```Java
 int x = num1.charAt(i) - '0';
+```
+* LC 453 Minimum Moves to equal array elements (n - 1 increments == 1 decrements)
+* LC 456 Minimum Movies to equal array elements (1 increments or decrements). Best solution is moving all elements to the median
+  * Use quick select to find the median in `O(n)`. worst case running time is `O(n^2)`
+```java
+// from wikipedia
+function partition(list, left, right, pivotIndex)
+     pivotValue := list[pivotIndex]
+     swap list[pivotIndex] and list[right]  // Move pivot to end
+     storeIndex := left
+     for i from left to right-1
+         if list[i] < pivotValue
+             swap list[storeIndex] and list[i]
+             increment storeIndex
+     swap list[right] and list[storeIndex]  // Move pivot to its final place
+     return storeIndex
 ```
 
 ### Reservoir Sampling
