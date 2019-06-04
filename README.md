@@ -200,3 +200,12 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 ### Union find
 * LC 721 merge acount
  * For union find, the key idea is find a representative for each element. Then, group all items into a set with same representive/parent.
+
+### Stack
+* Stack-like question is not necessarily using the data structure `Stack`. Try to abstract the stack idea by reversing whole problem.
+* LC 880 Decode string
+  * Count the letter + check if it is digit to find the longest string we need to check
+  * Going backward from the end of this string
+    * If start at a digit, going backward by divide the digit since it comes from multiplication. 
+    * If start at a char, then do increment and move backward
+    * find the index of char and return it.
