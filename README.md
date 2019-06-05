@@ -177,6 +177,8 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
 
 ### Greedy Algorithm
 * [LC 452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/discuss/93703/Share-my-explained-Greedy-solution-as-the-highest-voted-java-solution-right-now-is-not-ideal)
+* LC 948: Bag of token
+  * Use smallest token to obtains points; Use point to exchange highest token -> **Greedy Options**.
 
 ### Sort
 * Insertion sort O(n) -> O(n^2)
