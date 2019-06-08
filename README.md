@@ -192,6 +192,7 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
   * Bucket sort - Review for the random variable. Assume the uniform distribution. Proof by **Linearity of Expectation**
 * Patience sort - find minimum number of ascending subsequence from an array. Implement by the priority queue.  
 * LC 791; Bucket sort for string - 1) create a bucket with 26 characters counts; 2) add char that are in bucket and original string, and clear that slot to 0; 3) Add characters in original string but not in sorted pattern into string; 4) Return the string.
+
 ### Hash Table
 * LC 560 Store the cumulative sum and number of appearance 
 
@@ -211,3 +212,10 @@ for(int i = 0; i < s2.length() - windowSize; i ++){
     * If start at a digit, going backward by divide the digit since it comes from multiplication. 
     * If start at a char, then do increment and move backward
     * find the index of char and return it.
+    
+### Array
+* LC 795
+  * Idea: Each Iteration, we have three conditions.
+    1. `A[i]` is in range, we increase result by `i - j + 1`, and remember how many we add to result.
+    2. `A[i] < L`, the previous subarrays will still works, then we add what we remembered 
+    3. `A[i] > R`, the previous subarrays are not valid anymore, we reset `count` to 0, and change index `j = i + 1`.
