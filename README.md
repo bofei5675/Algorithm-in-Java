@@ -128,6 +128,7 @@ int x = num1.charAt(i) - '0';
 * LC 453 Minimum Moves to equal array elements (n - 1 increments == 1 decrements)
 * LC 456 Minimum Movies to equal array elements (1 increments or decrements). Best solution is moving all elements to the median
   * Use quick select to find the median in `O(n)`. worst case running time is `O(n^2)`
+  * `quickSelect`: 1) Use partition idea in quick sort to find the pivot. 2) check if pivot is the median or k-th largest element. 3) if not, only need to check larger part or smaller part based on what you are looking for.
 ```java
 // from wikipedia
 function partition(list, left, right, pivotIndex)
